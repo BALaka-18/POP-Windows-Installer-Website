@@ -173,6 +173,12 @@ a { color: inherit; text-decoration: none; }
 
 .download-block { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
 
+.download-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .btn-download {
   display: inline-flex;
   align-items: center;
@@ -483,6 +489,7 @@ a { color: inherit; text-decoration: none; }
   .section-inner { padding: 0 22px; }
   .features-grid { grid-template-columns: 1fr; }
   .download-block { width: 100%; }
+  .download-buttons { flex-direction: column; }
   .btn-download { width: 100%; }
   .topnav-inner { padding: 12px 22px; }
 }
